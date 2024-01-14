@@ -1,0 +1,40 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  main {
+    padding: 2em;
+  }
+  
+  .presentation {
+    text-align: center;
+  }
+  
+  /* Animación para el SVG */
+  .animated-svg {
+    animation: floatUpDown 2s ease-in-out infinite;
+  }
+  
+  @keyframes floatUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+
+/*# sourceMappingURL=/bienvenido-styles.16e5dea7.css.map */
